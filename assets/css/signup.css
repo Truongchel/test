@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: system-ui, sans-serif;
+    background-color: #E6F0FF;
+}
+
+main {
+    /* padding: 30px; */
+    
+    
+}
+.content {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 30px 50px 50px; 
+    margin: 100px auto;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px; */
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-top: 16px;
+}
+
+.form-group label,
+.form-group input {
+    display: inline-block;
+}
+
+.form-group label {
+    font-weight: 600;
+    width: 110px;
+}
+
+.form-group input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]) {
+    width: 280px;
+    height: 34px;
+    margin-top: 8px;
+    padding: 4px 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"],
+.form-group input[type="radio"]+label,
+.form-group input[type="checkbox"]+label {
+    display: inline-block;
+}
+
+.form-group input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.form-group input[type="radio"]+label {
+    position: relative;
+    top: -2px;
+    margin-right: 16px;
+    padding-left: 2px;
+}
+
+
+.form-group .btn {
+    margin-top: 20px;
+    padding: 10px 28px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #fff;
+    background: #0F1B4C;
+    cursor: pointer;
+}
+
+.form-group1 {
+    text-align: center;
+}
+
+
+.form-group .btn:hover {
+    opacity: 0.9;
+}
+
+select {
+    width: 280px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+label, span, h1, select {
+    color: #0F1B4C;;
+}
+.error {
+    color: red;
+}
+img {
+    width: 18%;
+}
